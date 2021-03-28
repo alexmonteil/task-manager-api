@@ -1,19 +1,8 @@
-const express = require("express");
-require("./db/mongoose");
-const userRouter = require("./routers/user");
-const taskRouter = require("./routers/task");
+const app = require("./app");
 
 
-// create app and configure port
-const app = express();
+// configure port
 const port = process.env.PORT;
-
-
-// set up middleware and routers
-app.use(express.json());
-app.use(userRouter);
-app.use(taskRouter);
-
 
 
 // Confirm server status

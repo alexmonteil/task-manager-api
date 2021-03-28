@@ -5,7 +5,7 @@ const router = new express.Router();
 
 
 // Read tasks options:
-// GET /tasks?completed?=true
+// GET /tasks?completed=true
 // GET /tasks?limit=10&skip=20
 // GET /tasks?sortBy=createdAt:asc
 router.get("/tasks", auth, async (req, res) => {
@@ -68,7 +68,7 @@ router.get("/tasks/:id", auth, async (req, res) => {
 
 
 // Update task 
-router.patch("/tasks/:id", async (req, res) => {
+router.patch("/tasks/:id", auth, async (req, res) => {
 
     const updates = Object.keys(req.body);
     const allowedUpdates = ["description", "completed"];
