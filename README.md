@@ -12,11 +12,11 @@ ALL AUTHENTICATED ROUTES WILL EXPECT A JWT CONTAINING THE USER ID
 
 TASKS ROUTES:
 
-Read tasks options (GET method), authenticated:
-/tasks?completed=true
-/tasks?limit=10&skip=20
-/tasks?sortBy=createdAt:asc
-/tasks
+Read tasks options (GET method), authenticated: <br>
+/tasks?completed=true <br>
+/tasks?limit=10&skip=20 <br>
+/tasks?sortBy=createdAt:asc <br>
+/tasks <br>
 
 --------------------------------------------------
 
@@ -69,11 +69,11 @@ Update user (PATCH method), authenticated:
 
 takes an object with the following blueprint:
 
-{
-    "name": "YourName",
-    "email": "YourEmail",
-    "password": "YourPassword",
-    "age": age (number)
+{ <br>
+    "name": "YourName", <br>
+    "email": "YourEmail", <br>
+    "password": "YourPassword", <br>
+    "age": age (number) <br>
 }
 
 
@@ -84,11 +84,11 @@ Create user (POST method):
 
 takes an object with the following blueprint:
 
-{
-    "name": "YourName",
-    "email": "YourEmail",
-    "password": "YourPassword",
-    "age": age (number) (optional)
+{ <br>
+    "name": "YourName", <br>
+    "email": "YourEmail", <br>
+    "password": "YourPassword", <br>
+    "age": age (number) (optional) <br>
 }
 
 
