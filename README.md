@@ -21,12 +21,12 @@ Read tasks options (GET method), authenticated: <br>
 --------------------------------------------------
 
 Read task (GET method), authenticated:
-/tasks/:id
+**/tasks/:id**
 
 --------------------------------------------------
 
 Update task (PATCH method), authenticated: 
-/tasks/:id
+**/tasks/:id**
 
 takes an object with the following blueprint: <br>
 ```
@@ -39,7 +39,7 @@ takes an object with the following blueprint: <br>
 
 
 Create task (POST method), authenticated:
-/tasks
+**/tasks**
 
 takes an object with the following blueprint: <br>
 ```
@@ -50,7 +50,7 @@ takes an object with the following blueprint: <br>
 --------------------------------------------------
 
 Delete task (DELETE method), authenticated:
-/tasks/:id
+**/tasks/:id**
 
 
 ===================================================
@@ -59,17 +59,17 @@ Delete task (DELETE method), authenticated:
 USERS ROUTES:
 
 Read use profile (GET method), authenticated:
-/users/me
+**/users/me**
 
 
 --------------------------------------------------
 
 Update user (PATCH method), authenticated:
-/users/me
+**/users/me**
 
 takes an object with the following blueprint: <br>
 ```
-{ <br>
+{
     "name": "YourName",
     "email": "YourEmail",
     "password": "YourPassword",
@@ -80,11 +80,11 @@ takes an object with the following blueprint: <br>
 --------------------------------------------------
 
 Create user (POST method):
-/users
+**/users**
 
 takes an object with the following blueprint: <br>
 ```
-{ <br>
+{
     "name": "YourName",
     "email": "YourEmail",
     "password": "YourPassword",
@@ -95,7 +95,7 @@ takes an object with the following blueprint: <br>
 --------------------------------------------------
 
 Login user (POST method):
-/users/login
+**/users/login**
 
 
 takes an object with the following blueprint: <br>
@@ -108,23 +108,23 @@ takes an object with the following blueprint: <br>
 --------------------------------------------------
 
 Logout user (POST method), authenticated:
-/users/logout
+**/users/logout**
 
 --------------------------------------------------
 
 Logout all sessions (POST method), authenticated:
-/users/logoutAll
+**/users/logoutAll**
 
 
 --------------------------------------------------
 
 Delete user (DELETE method), authenticated:
-/users/me
+**/users/me**
 
 --------------------------------------------------
 
 Upload avatar (POST method), authenticated:
-/users/me/avatar
+**/users/me/avatar**
 
 takes an object with the following blueprint: <br>
 ```
@@ -135,10 +135,10 @@ takes an object with the following blueprint: <br>
 --------------------------------------------------
 
 Delete avatar (DELETE method), authenticated:
-/users/me/avatar
+**/users/me/avatar**
 
 --------------------------------------------------
 
 Fetch avatar (GET method):
-/users/:id/avatar
+**/users/:id/avatar**
 
