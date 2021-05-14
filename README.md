@@ -29,11 +29,11 @@ Update task (PATCH method), authenticated:
 /tasks/:id
 
 takes an object with the following blueprint:
-
+`
 {
     "description": "YourDescription"
 }
-
+`
 
 --------------------------------------------------
 
@@ -42,11 +42,11 @@ Create task (POST method), authenticated:
 /tasks
 
 takes an object with the following blueprint:
-
+`
 {
     "description": "YourDescription"
 }
-
+`
 --------------------------------------------------
 
 Delete task (DELETE method), authenticated:
@@ -68,14 +68,14 @@ Update user (PATCH method), authenticated:
 /users/me
 
 takes an object with the following blueprint:
-
+`
 { <br>
     "name": "YourName", <br>
     "email": "YourEmail", <br>
     "password": "YourPassword", <br>
     "age": age (number) <br>
 }
-
+`
 
 --------------------------------------------------
 
@@ -83,14 +83,14 @@ Create user (POST method):
 /users
 
 takes an object with the following blueprint:
-
+`
 { <br>
     "name": "YourName", <br>
     "email": "YourEmail", <br>
     "password": "YourPassword", <br>
     "age": age (number) (optional) <br>
 }
-
+`
 
 --------------------------------------------------
 
@@ -99,12 +99,12 @@ Login user (POST method):
 
 
 takes an object with the following blueprint:
-
+`
 {
     "email": "YourEmail",
     "password": "YourPassword"
 }
-
+`
 --------------------------------------------------
 
 Logout user (POST method), authenticated:
@@ -127,11 +127,11 @@ Upload avatar (POST method), authenticated:
 /users/me/avatar
 
 takes an object with the following blueprint:
-
+`
 {
     "avatar": file
 }
-
+`
 --------------------------------------------------
 
 Delete avatar (DELETE method), authenticated:
