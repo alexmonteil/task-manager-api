@@ -10,6 +10,9 @@ https://monteil-task-manager.herokuapp.com
 
 ALL AUTHENTICATED ROUTES WILL EXPECT A JWT CONTAINING THE USER ID
 
+Demo user email: **demo@demo.com** <br>
+Demo user password: **Demo123!** <br>
+
 TASKS ROUTES:
 
 Read tasks options (GET method), authenticated: <br>
