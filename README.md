@@ -23,13 +23,13 @@ Read tasks options (GET method), authenticated: <br>
 
 --------------------------------------------------
 
-Read task (GET method), authenticated:
-**/tasks/:id**
+Read task (GET method), authenticated: <br>
+**https://monteil-task-manager.herokuapp.com/tasks/:id**
 
 --------------------------------------------------
 
-Update task (PATCH method), authenticated: 
-**/tasks/:id**
+Update task (PATCH method), authenticated: <br>
+**https://monteil-task-manager.herokuapp.com/tasks/:id**
 
 takes an object with the following blueprint: <br>
 ```
@@ -41,8 +41,8 @@ takes an object with the following blueprint: <br>
 --------------------------------------------------
 
 
-Create task (POST method), authenticated:
-**/tasks**
+Create task (POST method), authenticated: <br>
+**https://monteil-task-manager.herokuapp.com/tasks**
 
 takes an object with the following blueprint: <br>
 ```
@@ -52,8 +52,8 @@ takes an object with the following blueprint: <br>
 ```
 --------------------------------------------------
 
-Delete task (DELETE method), authenticated:
-**/tasks/:id**
+Delete task (DELETE method), authenticated: <br>
+**https://monteil-task-manager.herokuapp.com/tasks/:id**
 
 
 ===================================================
@@ -61,14 +61,14 @@ Delete task (DELETE method), authenticated:
 
 USERS ROUTES:
 
-Read use profile (GET method), authenticated:
-**/users/me**
+Read use profile (GET method), authenticated: <br>
+**https://monteil-task-manager.herokuapp.com/users/me**
 
 
 --------------------------------------------------
 
-Update user (PATCH method), authenticated:
-**/users/me**
+Update user (PATCH method), authenticated: <br>
+**https://monteil-task-manager.herokuapp.com/users/me**
 
 takes an object with the following blueprint: <br>
 ```
@@ -82,8 +82,8 @@ takes an object with the following blueprint: <br>
 
 --------------------------------------------------
 
-Create user (POST method):
-**/users**
+Create user (POST method): <br>
+**https://monteil-task-manager.herokuapp.com/users**
 
 takes an object with the following blueprint: <br>
 ```
@@ -97,8 +97,8 @@ takes an object with the following blueprint: <br>
 
 --------------------------------------------------
 
-Login user (POST method):
-**/users/login**
+Login user (POST method): <br>
+**https://monteil-task-manager.herokuapp.com/users/login**
 
 
 takes an object with the following blueprint: <br>
@@ -110,24 +110,24 @@ takes an object with the following blueprint: <br>
 ```
 --------------------------------------------------
 
-Logout user (POST method), authenticated:
-**/users/logout**
+Logout user (POST method), authenticated: <br>
+**https://monteil-task-manager.herokuapp.com/users/logout**
 
 --------------------------------------------------
 
-Logout all sessions (POST method), authenticated:
-**/users/logoutAll**
+Logout all sessions (POST method), authenticated: <br>
+**https://monteil-task-manager.herokuapp.com/users/logoutAll**
 
 
 --------------------------------------------------
 
-Delete user (DELETE method), authenticated:
-**/users/me**
+Delete user (DELETE method), authenticated: <br>
+**https://monteil-task-manager.herokuapp.com/users/me**
 
 --------------------------------------------------
 
-Upload avatar (POST method), authenticated:
-**/users/me/avatar**
+Upload avatar (POST method), authenticated: <br>
+**https://monteil-task-manager.herokuapp.com/users/me/avatar**
 
 takes an object with the following blueprint: <br>
 ```
@@ -137,11 +137,11 @@ takes an object with the following blueprint: <br>
 ```
 --------------------------------------------------
 
-Delete avatar (DELETE method), authenticated:
-**/users/me/avatar**
+Delete avatar (DELETE method), authenticated: <br>
+**https://monteil-task-manager.herokuapp.com/users/me/avatar**
 
 --------------------------------------------------
 
-Fetch avatar (GET method):
-**/users/:id/avatar**
+Fetch avatar (GET method): <br>
+**https://monteil-task-manager.herokuapp.com/users/:id/avatar**
 
