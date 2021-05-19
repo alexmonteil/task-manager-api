@@ -8,7 +8,9 @@ you can test the API with Postman at the following url:
 https://monteil-task-manager.herokuapp.com
 
 
-ALL AUTHENTICATED ROUTES WILL EXPECT A JWT CONTAINING THE USER ID
+ALL AUTHENTICATED ROUTES WILL EXPECT A JWT CONTAINING THE USER ID <br>
+The Bearer token must be used within the HTTP request headers as an Authorization key with a value matching the following pattern: <br>
+"Bearer ``<YourToken>``"
 
 Demo user email: **demo@demo.com** <br>
 Demo user password: **Demo123!** <br>
