@@ -9,8 +9,18 @@ https://monteil-task-manager.herokuapp.com
 
 
 ALL AUTHENTICATED ROUTES WILL EXPECT A JWT CONTAINING THE USER ID <br>
-The Bearer token must be used within the HTTP request headers as an Authorization key with a value matching the following pattern: <br>
-"Bearer ``<YourToken>``"
+The Bearer token must be used within the HTTP request headers using the following pattern: <br>
+```
+    const response = await fetch("https://monteil-task-manager.herokuapp.com"/tasks, {
+        method: "GET",
+        headers: {
+            "Authorization": "Bearer <YourToken>",
+            "Content-Type": "application/json",
+            "Accept": "*/*"
+        }
+    });
+
+```
 
 Demo user email: **demo@demo.com** <br>
 Demo user password: **Demo123!** <br>
